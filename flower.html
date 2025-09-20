@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Flores Amarillas</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background-color: #fffacd;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      position: absolute;
+      color: #ffcc00;
+      text-align: center;
+      font-size: 36px;
+      z-index: 1000;
+    }
+    .flor {
+      position: absolute;
+      width: 50px;
+      animation: caer 5s linear infinite;
+    }
+    @keyframes caer {
+      0% { transform: translateY(-100px) rotate(0deg); }
+      100% { transform: translateY(100vh) rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <h1>Tus flores amarillas amor, te amo 🌼💛</h1>
+
+  <!-- 20 flores amarillas cayendo -->
+  <img src="https://cdn.pixabay.com/photo/2017/02/28/16/06/flower-2105151_1280.png" class="flor" style="left: 5%; animation-delay: 0s;">
+  <img src="https://cdn.pixabay.com/photo/2017/02/28/16/06/flower-2105151_1280.png" class="flor" style="left: 15%; animation-delay: 1s;">
+  <img src="https://cdn.pixabay.com/photo/2017/02/28/16/06/flower-2105151_1280.png" class="flor" style="left: 25%; animation-delay: 2s;">
+  <img src="https://cdn.pixabay.com/photo/2017/02/28/16/06/flower-2105151_1280.png" class="flor" style="left: 35%; animation-delay: 3s;">
+  <img src="https://cdn.pixabay.com/photo/2017/02/28/16/06/flower-2105151_1280.png" class="flor" style="left: 45%; animation-delay: 4s;">
+  <img src="https://cdn.pixabay.com/photo/2017/02/28/16/06/flower-2105151_1280.png" class="flor" style="left: 55%; animation-delay: 0.5s;">
+  <img src="https://cdn.pixabay.com/photo/2017/02/28/16/06/flower-2105151_1280.png" class="flor" style="left: 65%; animation-delay: 1.5s;">
+  <img src="https://cdn.pixabay.com/photo/2017/02/28/16/06/flower-2105151_1280.png" class="flor" style="left: 75%; animation-delay: 2.5s;">
+  <img src="https://cdn.pixabay.com/photo/2017/02/28/16/06/flower-2105151_1280.png" class="flor" style="left: 85%; animation-delay: 3.5s;">
+  <img src="https://cdn.pixabay.com/photo/2017/02/28/16/06/flower-2105151_1280.png" class="flor" style="left: 95%; animation-delay: 4.5s;">
+</body>
+</html>
